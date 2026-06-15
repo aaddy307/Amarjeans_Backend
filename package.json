@@ -1,0 +1,38 @@
+{
+  "name": "amar-jeans-server",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "node --experimental-vm-modules src/_core/index.js",
+    "dev:watch": "tsx watch src/_core/index.js",
+    "start": "NODE_ENV=production node src/_core/index.js",
+    "db:push": "drizzle-kit push"
+  },
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.693.0",
+    "@aws-sdk/s3-request-presigner": "^3.693.0",
+    "@trpc/server": "^11.6.0",
+    "bcryptjs": "^3.0.3",
+    "cookie": "^1.0.2",
+    "cookie-parser": "^1.4.7",
+    "dotenv": "^17.2.2",
+    "drizzle-orm": "^0.44.5",
+    "express": "^4.21.2",
+    "jose": "6.1.0",
+    "mongoose": "^9.7.0",
+    "multer": "^2.1.1",
+    "mysql2": "^3.15.0",
+    "nanoid": "^5.1.5",
+    "streamdown": "^1.4.0",
+    "superjson": "^1.13.3",
+    "zod": "^4.1.12"
+  },
+  "devDependencies": {
+    "@types/express": "4.17.21",
+    "@types/google.maps": "^3.58.1",
+    "@types/node": "^24.7.0",
+    "drizzle-kit": "^0.31.4",
+    "tsx": "^4.19.1",
+    "typescript": "5.9.3"
+  }
+}
