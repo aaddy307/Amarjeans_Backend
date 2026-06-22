@@ -81,6 +81,8 @@ export const adminRouter = router({
       handle: z.string().min(1),
       description: z.string().optional(),
       price: z.number().positive(),
+      compareAtPrice: z.number().positive().nullable().optional(),
+      isTrending: z.boolean().optional().default(false),
       categoryId: z.string(),
       imageUrl: z.preprocess(v => (v === "" || v == null) ? undefined : v, z.string().url().optional()),
       tags: z.array(z.string()).optional()
@@ -94,6 +96,8 @@ export const adminRouter = router({
         handle: input.handle.toLowerCase(),
         description: input.description,
         price: input.price,
+        compareAtPrice: input.compareAtPrice,
+        isTrending: input.isTrending,
         category: input.categoryId,
         images: input.imageUrl ? [{ url: input.imageUrl, altText: input.title }] : [],
         tags: input.tags || []
@@ -132,6 +136,8 @@ export const adminRouter = router({
       title: z.string().min(1),
       description: z.string().optional(),
       price: z.number().positive(),
+      compareAtPrice: z.number().positive().nullable().optional(),
+      isTrending: z.boolean().optional().default(false),
       categoryId: z.string(),
       imageUrl: z.preprocess(v => (v === "" || v == null) ? undefined : v, z.string().url().optional()),
       tags: z.array(z.string()).optional()
@@ -143,6 +149,8 @@ export const adminRouter = router({
           title: input.title,
           description: input.description,
           price: input.price,
+          compareAtPrice: input.compareAtPrice,
+          isTrending: input.isTrending,
           category: input.categoryId,
           ...(input.imageUrl && { images: [{ url: input.imageUrl, altText: input.title }] }),
           tags: input.tags || []

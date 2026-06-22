@@ -15,7 +15,9 @@ function formatCart(cartDoc) {
     const lineTotal = price * item.quantity;
     totalAmount += lineTotal;
     
-    const img = item.product?.images && item.product.images.length > 0 ? { url: item.product.images[0].url, width: 500, height: 500, altText: item.product.images[0].altText || "" } : null;
+    const img = (item.product?.images && item.product.images.length > 0) 
+      ? { url: item.product.images[0].url, width: 500, height: 500, altText: item.product.images[0].altText || "" } 
+      : (item.product?.imageUrl ? { url: item.product.imageUrl, width: 500, height: 500, altText: "" } : null);
     
     return {
       lineId: item._id.toString(),

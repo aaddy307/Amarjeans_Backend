@@ -20,6 +20,14 @@ const productSchema = new mongoose.Schema({
     type: Number,
     required: true
   },
+  compareAtPrice: {
+    type: Number,
+    default: null
+  },
+  isTrending: {
+    type: Boolean,
+    default: false
+  },
   category: {
     type: mongoose.Schema.Types.ObjectId,
     ref: 'Category',

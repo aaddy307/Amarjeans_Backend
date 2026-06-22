@@ -47,7 +47,8 @@ export const commerceRouter = router({
           vendor: p.brand,
           productType: p.category ? p.category.name : "",
           priceRange: { min: { amount: p.price.toString(), currencyCode: "INR" } },
-          variants: [{ id: p._id.toString() }] // dummy variant ID for cart
+          variants: [{ id: p._id.toString() }], // dummy variant ID for cart
+          images: (p.images && p.images.length > 0) ? p.images : (p.imageUrl ? [{ url: p.imageUrl, altText: p.title }] : [])
         }));
       }),
 
@@ -63,7 +64,8 @@ export const commerceRouter = router({
           vendor: p.brand,
           productType: p.category ? p.category.name : "",
           priceRange: { min: { amount: p.price.toString(), currencyCode: "INR" } },
-          variants: [{ id: p._id.toString() }]
+          variants: [{ id: p._id.toString() }],
+          images: (p.images && p.images.length > 0) ? p.images : (p.imageUrl ? [{ url: p.imageUrl, altText: p.title }] : [])
         };
       }),
   }),
