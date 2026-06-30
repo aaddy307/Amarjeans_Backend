@@ -1,12 +1,21 @@
+function requireEnv(name) {
+  const value = process.env[name];
+  if (!value) throw new Error(`Missing required environment variable: ${name}`);
+  return value;
+}
+
 export const ENV = {
   appId: process.env.VITE_APP_ID ?? "",
-  cookieSecret: process.env.JWT_SECRET ?? "amar-jeans-super-secret-key-2024",
-  mongodbUrl: process.env.MONGODB_URL ?? "mongodb://localhost:27017/amar_jeans",
+  cookieSecret: requireEnv("JWT_SECRET"),
+  mongodbUrl: requireEnv("MONGODB_URL"),
   isProduction: process.env.NODE_ENV === "production",
   forgeApiUrl: process.env.BUILT_IN_FORGE_API_URL ?? "",
   forgeApiKey: process.env.BUILT_IN_FORGE_API_KEY ?? "",
   shopifyStoreDomain: process.env.SHOPIFY_STORE_DOMAIN ?? "",
   shopifyStorefrontAccessToken: process.env.SHOPIFY_STOREFRONT_API_ACCESS_TOKEN ?? "",
-  adminEmail: process.env.ADMIN_EMAIL ?? "admin@amarjeans.com",
-  adminPassword: process.env.ADMIN_PASSWORD ?? "amarjeansadmin",
+  adminEmail: requireEnv("ADMIN_EMAIL"),
+  adminPassword: requireEnv("ADMIN_PASSWORD"),
+  cloudinaryCloudName: requireEnv("CLOUDINARY_CLOUD_NAME"),
+  cloudinaryApiKey: requireEnv("CLOUDINARY_API_KEY"),
+  cloudinaryApiSecret: requireEnv("CLOUDINARY_API_SECRET"),
 };

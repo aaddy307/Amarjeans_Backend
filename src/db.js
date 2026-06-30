@@ -1,6 +1,5 @@
 import mongoose from "mongoose";
-
-const MONGODB_URL = process.env.MONGODB_URL || "mongodb://localhost:27017/amar_jeans";
+import { ENV } from "./_core/env.js";
 
 let isConnected = false;
 
@@ -8,9 +7,9 @@ export async function connectDB() {
   if (isConnected) return;
 
   try {
-    await mongoose.connect(MONGODB_URL);
+    await mongoose.connect(ENV.mongodbUrl);
     isConnected = true;
-    console.log(`[MongoDB] Connected to ${MONGODB_URL}`);
+    console.log(`[MongoDB] Connected to ${ENV.mongodbUrl}`);
   } catch (error) {
     console.error("[MongoDB] Connection failed:", error);
     throw error;

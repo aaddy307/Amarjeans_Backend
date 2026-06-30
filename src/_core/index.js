@@ -1,4 +1,5 @@
 import "dotenv/config";
+import { ENV } from "./env.js";
 import express from "express";
 import cookieParser from "cookie-parser";
 import { createServer } from "http";
@@ -62,7 +63,7 @@ async function startServer() {
 
   server.listen(port, () => {
     console.log(`🚀 AMAR JEANS Server running on http://localhost:${port}/`);
-    console.log(`📦 MongoDB: ${process.env.MONGODB_URL || "mongodb://localhost:27017/amar_jeans"}`);
+    console.log(`📦 MongoDB: ${ENV.mongodbUrl}`);
   });
 }
 

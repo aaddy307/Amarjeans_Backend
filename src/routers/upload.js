@@ -1,30 +1,18 @@
 import express from "express";
 import multer from "multer";
-import path from "path";
-import fs from "fs";
-import { fileURLToPath } from "url";
 import { jwtVerify } from "jose";
 import { ENV } from "../_core/env.js";
+import { v2 as cloudinary } from "cloudinary";
 
-const __dirname = path.dirname(fileURLToPath(import.meta.url));
-
-// Ensure uploads directory exists
-const uploadsDir = path.resolve(__dirname, "../../public/uploads");
-if (!fs.existsSync(uploadsDir)) {
-  fs.mkdirSync(uploadsDir, { recursive: true });
-}
-
-// Setup multer storage
-const storage = multer.diskStorage({
-  destination: function (req, file, cb) {
-    cb(null, uploadsDir);
-  },
-  filename: function (req, file, cb) {
-    const uniqueSuffix = Date.now() + '-' + Math.round(Math.random() * 1E9);
-    const ext = path.extname(file.originalname);
-    cb(null, file.fieldname + '-' + uniqueSuffix + ext);
-  }
+// Configure Cloudinary
+cloudinary.config({
+  cloud_name: ENV.cloudinaryCloudName,
+  api_key: ENV.cloudinaryApiKey,
+  api_secret: ENV.cloudinaryApiSecret,
 });
+
+// Setup multer memory storage
+const storage = multer.memoryStorage();
 
 const upload = multer({ 
   storage: storage,
@@ -37,6 +25,22 @@ const upload = multer({
     }
   }
 });
+
+// Helper function to stream upload to Cloudinary
+const uploadToCloudinary = (fileBuffer) => {
+  return new Promise((resolve, reject) => {
+    const uploadStream = cloudinary.uploader.upload_stream(
+      {
+        folder: "amar_jeans",
+      },
+      (error, result) => {
+        if (error) return reject(error);
+        resolve(result);
+      }
+    );
+    uploadStream.end(fileBuffer);
+  });
+};
 
 export const uploadRouter = express.Router();
 
@@ -57,14 +61,16 @@ const verifyAdmin = async (req, res, next) => {
   }
 };
 
-uploadRouter.post("/", verifyAdmin, upload.single("image"), (req, res) => {
+uploadRouter.post("/", verifyAdmin, upload.single("image"), async (req, res) => {
   if (!req.file) {
     return res.status(400).json({ error: "No image provided" });
   }
 
-  // Return the full absolute URL for the uploaded file
-  const protocol = req.protocol;
-  const host = req.get("host");
-  const fileUrl = `${protocol}://${host}/uploads/${req.file.filename}`;
-  res.json({ url: fileUrl });
+  try {
+    const result = await uploadToCloudinary(req.file.buffer);
+    res.json({ url: result.secure_url });
+  } catch (error) {
+    console.error("[Cloudinary] Upload failed:", error);
+    res.status(500).json({ error: "Failed to upload image to Cloudinary" });
+  }
 });
