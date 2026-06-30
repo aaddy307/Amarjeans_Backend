@@ -20,6 +20,10 @@ const siteSettingsSchema = new mongoose.Schema({
   instagramUrl: {
     type: String,
     default: "https://www.instagram.com/amarjeans990/"
+  },
+  whatsappNumber: {
+    type: String,
+    default: "919834557990"
   }
 }, { timestamps: true });
 

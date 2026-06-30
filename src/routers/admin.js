@@ -374,7 +374,8 @@ export const adminRouter = router({
       supportEmail: z.string().email(),
       supportPhone: z.string().min(1),
       storeAddress: z.string().min(1),
-      instagramUrl: z.string().url().or(z.literal(''))
+      instagramUrl: z.string().url().or(z.literal('')),
+      whatsappNumber: z.string().min(1)
     }))
     .mutation(async ({ input, ctx }) => {
       const { SiteSettings } = await import("../models/SiteSettings.js");
@@ -385,6 +386,7 @@ export const adminRouter = router({
       settings.supportPhone = input.supportPhone;
       settings.storeAddress = input.storeAddress;
       settings.instagramUrl = input.instagramUrl;
+      settings.whatsappNumber = input.whatsappNumber;
       await settings.save();
 
       await AdminLog.create({

@@ -4048,3 +4048,300 @@
 2026-06-30T05:42:04.027Z - JWT verified. UserId: 000000000000000000000000, Role: admin
 2026-06-30T05:42:04.028Z - Admin user restored from JWT payload
 >>>>>>> 2b59cf1d02dffb8d87c7e97c16b8831649e5dbb9
+2026-06-30T05:47:35.955Z - Request to /api/trpc/auth.me?batch=1&input=%7B%220%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%7D. Token found in cookies: true
+2026-06-30T05:47:35.956Z - JWT verified. UserId: 000000000000000000000000, Role: admin
+2026-06-30T05:47:35.957Z - Admin user restored from JWT payload
+2026-06-30T05:48:08.355Z - Request to /api/trpc/commerce.products.list,commerce.categories.list?batch=1&input=%7B%220%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%2C%221%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%7D. Token found in cookies: true
+2026-06-30T05:48:08.357Z - JWT verified. UserId: 000000000000000000000000, Role: admin
+2026-06-30T05:48:08.358Z - Admin user restored from JWT payload
+2026-06-30T05:48:11.520Z - Request to /api/trpc/auth.me,commerce.cart.get?batch=1&input=%7B%220%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%2C%221%22%3A%7B%22json%22%3A%7B%22cartId%22%3A%226a435670ff9c4c01edd06bc2%22%7D%7D%7D. Token found in cookies: true
+2026-06-30T05:48:11.520Z - JWT verified. UserId: 000000000000000000000000, Role: admin
+2026-06-30T05:48:11.521Z - Admin user restored from JWT payload
+2026-06-30T05:48:11.556Z - Request to /api/trpc/auth.me,commerce.products.list,commerce.categories.list?batch=1&input=%7B%220%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%2C%221%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%2C%222%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%7D. Token found in cookies: true
+2026-06-30T05:48:11.557Z - JWT verified. UserId: 000000000000000000000000, Role: admin
+2026-06-30T05:48:11.558Z - Admin user restored from JWT payload
+2026-06-30T05:48:30.257Z - Request to /api/trpc/commerce.products.list,commerce.categories.list?batch=1&input=%7B%220%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%2C%221%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%7D. Token found in cookies: true
+2026-06-30T05:48:30.259Z - JWT verified. UserId: 000000000000000000000000, Role: admin
+2026-06-30T05:48:30.259Z - Admin user restored from JWT payload
+2026-06-30T05:48:35.303Z - Request to /api/trpc/commerce.categories.list,commerce.products.list,commerce.settings.get?batch=1&input=%7B%220%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%2C%221%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%2C%222%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%7D. Token found in cookies: true
+2026-06-30T05:48:35.305Z - JWT verified. UserId: 000000000000000000000000, Role: admin
+2026-06-30T05:48:35.305Z - Admin user restored from JWT payload
+2026-06-30T05:48:38.958Z - Request to /api/trpc/auth.me?batch=1&input=%7B%220%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%7D. Token found in cookies: true
+2026-06-30T05:48:38.959Z - JWT verified. UserId: 000000000000000000000000, Role: admin
+2026-06-30T05:48:38.960Z - Admin user restored from JWT payload
+2026-06-30T05:48:44.190Z - Request to /api/trpc/commerce.categories.list,commerce.products.list,commerce.settings.get?batch=1&input=%7B%220%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%2C%221%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%2C%222%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%7D. Token found in cookies: true
+2026-06-30T05:48:44.192Z - JWT verified. UserId: 000000000000000000000000, Role: admin
+2026-06-30T05:48:44.193Z - Admin user restored from JWT payload
+2026-06-30T05:48:45.706Z - Request to /api/trpc/commerce.products.list,commerce.categories.list?batch=1&input=%7B%220%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%2C%221%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%7D. Token found in cookies: true
+2026-06-30T05:48:45.707Z - JWT verified. UserId: 000000000000000000000000, Role: admin
+2026-06-30T05:48:45.708Z - Admin user restored from JWT payload
+2026-06-30T05:48:48.196Z - Request to /api/trpc/auth.me,commerce.cart.get?batch=1&input=%7B%220%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%2C%221%22%3A%7B%22json%22%3A%7B%22cartId%22%3A%226a435670ff9c4c01edd06bc2%22%7D%7D%7D. Token found in cookies: true
+2026-06-30T05:48:48.197Z - JWT verified. UserId: 000000000000000000000000, Role: admin
+2026-06-30T05:48:48.197Z - Admin user restored from JWT payload
+2026-06-30T05:48:48.238Z - Request to /api/trpc/auth.me,commerce.products.list,commerce.categories.list?batch=1&input=%7B%220%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%2C%221%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%2C%222%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%7D. Token found in cookies: true
+2026-06-30T05:48:48.239Z - JWT verified. UserId: 000000000000000000000000, Role: admin
+2026-06-30T05:48:48.239Z - Admin user restored from JWT payload
+2026-06-30T05:48:53.917Z - Request to /api/trpc/auth.me,admin.getDashboard?batch=1&input=%7B%220%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%2C%221%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%7D. Token found in cookies: true
+2026-06-30T05:48:53.918Z - JWT verified. UserId: 000000000000000000000000, Role: admin
+2026-06-30T05:48:53.919Z - Admin user restored from JWT payload
+2026-06-30T05:48:56.301Z - Request to /api/trpc/auth.me,commerce.products.list,commerce.categories.list?batch=1&input=%7B%220%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%2C%221%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%2C%222%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%7D. Token found in cookies: true
+2026-06-30T05:48:56.303Z - JWT verified. UserId: 000000000000000000000000, Role: admin
+2026-06-30T05:48:56.304Z - Admin user restored from JWT payload
+2026-06-30T05:48:57.590Z - Request to /api/trpc/auth.me,commerce.categories.list?batch=1&input=%7B%220%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%2C%221%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%7D. Token found in cookies: true
+2026-06-30T05:48:57.591Z - JWT verified. UserId: 000000000000000000000000, Role: admin
+2026-06-30T05:48:57.591Z - Admin user restored from JWT payload
+2026-06-30T05:48:59.799Z - Request to /api/trpc/auth.me,admin.getOrders?batch=1&input=%7B%220%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%2C%221%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%7D. Token found in cookies: true
+2026-06-30T05:48:59.800Z - JWT verified. UserId: 000000000000000000000000, Role: admin
+2026-06-30T05:48:59.800Z - Admin user restored from JWT payload
+2026-06-30T05:49:01.311Z - Request to /api/trpc/admin.getRecentReviews?batch=1&input=%7B%220%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%7D. Token found in cookies: true
+2026-06-30T05:49:01.312Z - JWT verified. UserId: 000000000000000000000000, Role: admin
+2026-06-30T05:49:01.312Z - Admin user restored from JWT payload
+2026-06-30T05:49:02.727Z - Request to /api/trpc/auth.me,admin.getLogs?batch=1&input=%7B%220%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%2C%221%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%7D. Token found in cookies: true
+2026-06-30T05:49:02.728Z - JWT verified. UserId: 000000000000000000000000, Role: admin
+2026-06-30T05:49:02.729Z - Admin user restored from JWT payload
+2026-06-30T05:49:04.396Z - Request to /api/trpc/auth.me,admin.getSettings?batch=1&input=%7B%220%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%2C%221%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%7D. Token found in cookies: true
+2026-06-30T05:49:04.397Z - JWT verified. UserId: 000000000000000000000000, Role: admin
+2026-06-30T05:49:04.398Z - Admin user restored from JWT payload
+2026-06-30T05:49:06.243Z - Request to /api/trpc/auth.me,admin.getDashboard?batch=1&input=%7B%220%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%2C%221%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%7D. Token found in cookies: true
+2026-06-30T05:49:06.244Z - JWT verified. UserId: 000000000000000000000000, Role: admin
+2026-06-30T05:49:06.244Z - Admin user restored from JWT payload
+2026-06-30T05:49:08.867Z - Request to /api/trpc/commerce.categories.list,commerce.products.list,commerce.reviews.listRecent,commerce.settings.get?batch=1&input=%7B%220%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%2C%221%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%2C%222%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%2C%223%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%7D. Token found in cookies: true
+2026-06-30T05:49:08.868Z - JWT verified. UserId: 000000000000000000000000, Role: admin
+2026-06-30T05:49:08.868Z - Admin user restored from JWT payload
+2026-06-30T05:49:14.587Z - Request to /api/trpc/auth.me,commerce.cart.get?batch=1&input=%7B%220%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%2C%221%22%3A%7B%22json%22%3A%7B%22cartId%22%3A%226a435670ff9c4c01edd06bc2%22%7D%7D%7D. Token found in cookies: true
+2026-06-30T05:49:14.588Z - JWT verified. UserId: 000000000000000000000000, Role: admin
+2026-06-30T05:49:14.588Z - Admin user restored from JWT payload
+2026-06-30T05:49:14.639Z - Request to /api/trpc/auth.me,admin.getDashboard?batch=1&input=%7B%220%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%2C%221%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%7D. Token found in cookies: true
+2026-06-30T05:49:14.640Z - JWT verified. UserId: 000000000000000000000000, Role: admin
+2026-06-30T05:49:14.640Z - Admin user restored from JWT payload
+2026-06-30T05:49:42.585Z - Request to /api/trpc/auth.me,admin.getOrders?batch=1&input=%7B%220%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%2C%221%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%7D. Token found in cookies: true
+2026-06-30T05:49:42.586Z - JWT verified. UserId: 000000000000000000000000, Role: admin
+2026-06-30T05:49:42.586Z - Admin user restored from JWT payload
+2026-06-30T05:49:48.989Z - Request to /api/trpc/commerce.categories.list,commerce.products.list,commerce.settings.get?batch=1&input=%7B%220%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%2C%221%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%2C%222%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%7D. Token found in cookies: true
+2026-06-30T05:49:48.990Z - JWT verified. UserId: 000000000000000000000000, Role: admin
+2026-06-30T05:49:48.990Z - Admin user restored from JWT payload
+2026-06-30T05:49:51.150Z - Request to /api/trpc/commerce.settings.get?batch=1&input=%7B%220%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%7D. Token found in cookies: true
+2026-06-30T05:49:51.152Z - JWT verified. UserId: 000000000000000000000000, Role: admin
+2026-06-30T05:49:51.153Z - Admin user restored from JWT payload
+2026-06-30T05:49:53.998Z - Request to /api/trpc/admin.getOrders?batch=1&input=%7B%220%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%7D. Token found in cookies: true
+2026-06-30T05:49:53.999Z - JWT verified. UserId: 000000000000000000000000, Role: admin
+2026-06-30T05:49:54.000Z - Admin user restored from JWT payload
+2026-06-30T05:49:58.143Z - Request to /api/trpc/commerce.categories.list,commerce.products.list,commerce.settings.get?batch=1&input=%7B%220%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%2C%221%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%2C%222%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%7D. Token found in cookies: true
+2026-06-30T05:49:58.144Z - JWT verified. UserId: 000000000000000000000000, Role: admin
+2026-06-30T05:49:58.145Z - Admin user restored from JWT payload
+2026-06-30T05:50:39.798Z - Request to /api/trpc/admin.getOrders?batch=1&input=%7B%220%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%7D. Token found in cookies: true
+2026-06-30T05:50:39.799Z - JWT verified. UserId: 000000000000000000000000, Role: admin
+2026-06-30T05:50:39.800Z - Admin user restored from JWT payload
+2026-06-30T05:50:41.343Z - Request to /api/trpc/auth.me,commerce.cart.get?batch=1&input=%7B%220%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%2C%221%22%3A%7B%22json%22%3A%7B%22cartId%22%3A%226a435670ff9c4c01edd06bc2%22%7D%7D%7D. Token found in cookies: true
+2026-06-30T05:50:41.344Z - JWT verified. UserId: 000000000000000000000000, Role: admin
+2026-06-30T05:50:41.345Z - Admin user restored from JWT payload
+2026-06-30T05:50:41.386Z - Request to /api/trpc/auth.me,admin.getOrders?batch=1&input=%7B%220%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%2C%221%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%7D. Token found in cookies: true
+2026-06-30T05:50:41.387Z - JWT verified. UserId: 000000000000000000000000, Role: admin
+2026-06-30T05:50:41.387Z - Admin user restored from JWT payload
+2026-06-30T05:50:43.324Z - Request to /api/trpc/commerce.categories.list,commerce.products.list,commerce.settings.get?batch=1&input=%7B%220%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%2C%221%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%2C%222%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%7D. Token found in cookies: true
+2026-06-30T05:50:43.325Z - JWT verified. UserId: 000000000000000000000000, Role: admin
+2026-06-30T05:50:43.325Z - Admin user restored from JWT payload
+2026-06-30T05:51:36.217Z - Request to /api/trpc/commerce.categories.list,commerce.products.list,commerce.settings.get?batch=1&input=%7B%220%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%2C%221%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%2C%222%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%7D. Token found in cookies: true
+2026-06-30T05:51:36.218Z - JWT verified. UserId: 000000000000000000000000, Role: admin
+2026-06-30T05:51:36.219Z - Admin user restored from JWT payload
+2026-06-30T06:07:12.227Z - Request to /api/trpc/commerce.categories.list,commerce.products.list,commerce.settings.get?batch=1&input=%7B%220%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%2C%221%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%2C%222%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%7D. Token found in cookies: true
+2026-06-30T06:07:12.228Z - JWT verified. UserId: 000000000000000000000000, Role: admin
+2026-06-30T06:07:12.229Z - Admin user restored from JWT payload
+2026-06-30T06:08:01.858Z - Request to /api/trpc/commerce.categories.list,commerce.products.list,commerce.settings.get?batch=1&input=%7B%220%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%2C%221%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%2C%222%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%7D. Token found in cookies: true
+2026-06-30T06:08:01.860Z - JWT verified. UserId: 000000000000000000000000, Role: admin
+2026-06-30T06:08:01.860Z - Admin user restored from JWT payload
+2026-06-30T06:08:15.221Z - Request to /api/trpc/commerce.categories.list,commerce.products.list,commerce.settings.get?batch=1&input=%7B%220%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%2C%221%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%2C%222%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%7D. Token found in cookies: true
+2026-06-30T06:08:15.222Z - JWT verified. UserId: 000000000000000000000000, Role: admin
+2026-06-30T06:08:15.222Z - Admin user restored from JWT payload
+2026-06-30T06:08:31.947Z - Request to /api/trpc/commerce.categories.list,commerce.products.list?batch=1&input=%7B%220%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%2C%221%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%7D. Token found in cookies: true
+2026-06-30T06:08:31.948Z - JWT verified. UserId: 000000000000000000000000, Role: admin
+2026-06-30T06:08:31.948Z - Admin user restored from JWT payload
+2026-06-30T06:08:37.482Z - Request to /api/trpc/commerce.categories.list,commerce.products.list,commerce.settings.get?batch=1&input=%7B%220%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%2C%221%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%2C%222%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%7D. Token found in cookies: true
+2026-06-30T06:08:37.483Z - JWT verified. UserId: 000000000000000000000000, Role: admin
+2026-06-30T06:08:37.483Z - Admin user restored from JWT payload
+2026-06-30T06:08:39.576Z - Request to /api/trpc/commerce.categories.list,commerce.products.list?batch=1&input=%7B%220%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%2C%221%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%7D. Token found in cookies: true
+2026-06-30T06:08:39.577Z - JWT verified. UserId: 000000000000000000000000, Role: admin
+2026-06-30T06:08:39.577Z - Admin user restored from JWT payload
+2026-06-30T06:08:50.811Z - Request to /api/trpc/commerce.products.list,commerce.categories.list?batch=1&input=%7B%220%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%2C%221%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%7D. Token found in cookies: true
+2026-06-30T06:08:50.811Z - JWT verified. UserId: 000000000000000000000000, Role: admin
+2026-06-30T06:08:50.812Z - Admin user restored from JWT payload
+2026-06-30T06:08:57.421Z - Request to /api/trpc/commerce.settings.get?batch=1&input=%7B%220%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%7D. Token found in cookies: true
+2026-06-30T06:08:57.422Z - JWT verified. UserId: 000000000000000000000000, Role: admin
+2026-06-30T06:08:57.422Z - Admin user restored from JWT payload
+2026-06-30T06:09:21.103Z - Request to /api/trpc/commerce.categories.list,commerce.products.list,commerce.settings.get?batch=1&input=%7B%220%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%2C%221%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%2C%222%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%7D. Token found in cookies: true
+2026-06-30T06:09:21.105Z - JWT verified. UserId: 000000000000000000000000, Role: admin
+2026-06-30T06:09:21.105Z - Admin user restored from JWT payload
+2026-06-30T06:10:24.966Z - Request to /api/trpc/commerce.categories.list,commerce.products.list?batch=1&input=%7B%220%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%2C%221%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%7D. Token found in cookies: true
+2026-06-30T06:10:24.967Z - JWT verified. UserId: 000000000000000000000000, Role: admin
+2026-06-30T06:10:24.967Z - Admin user restored from JWT payload
+2026-06-30T06:10:42.395Z - Request to /api/trpc/commerce.categories.list,commerce.products.list,commerce.settings.get?batch=1&input=%7B%220%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%2C%221%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%2C%222%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%7D. Token found in cookies: true
+2026-06-30T06:10:42.397Z - JWT verified. UserId: 000000000000000000000000, Role: admin
+2026-06-30T06:10:42.397Z - Admin user restored from JWT payload
+2026-06-30T06:12:03.958Z - Request to /api/trpc/commerce.categories.list,commerce.products.list?batch=1&input=%7B%220%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%2C%221%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%7D. Token found in cookies: true
+2026-06-30T06:12:03.958Z - JWT verified. UserId: 000000000000000000000000, Role: admin
+2026-06-30T06:12:03.959Z - Admin user restored from JWT payload
+2026-06-30T06:12:04.390Z - Request to /api/trpc/commerce.categories.list,commerce.products.list,commerce.settings.get?batch=1&input=%7B%220%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%2C%221%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%2C%222%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%7D. Token found in cookies: true
+2026-06-30T06:12:04.391Z - JWT verified. UserId: 000000000000000000000000, Role: admin
+2026-06-30T06:12:04.391Z - Admin user restored from JWT payload
+2026-06-30T06:12:11.105Z - Request to /api/trpc/commerce.categories.list,commerce.reviews.listRecent,commerce.products.list?batch=1&input=%7B%220%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%2C%221%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%2C%222%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%7D. Token found in cookies: true
+2026-06-30T06:12:11.106Z - JWT verified. UserId: 000000000000000000000000, Role: admin
+2026-06-30T06:12:11.107Z - Admin user restored from JWT payload
+2026-06-30T06:12:52.745Z - Request to /api/trpc/commerce.categories.list,commerce.products.list,commerce.settings.get,commerce.reviews.listRecent?batch=1&input=%7B%220%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%2C%221%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%2C%222%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%2C%223%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%7D. Token found in cookies: true
+2026-06-30T06:12:52.746Z - JWT verified. UserId: 000000000000000000000000, Role: admin
+2026-06-30T06:12:52.746Z - Admin user restored from JWT payload
+2026-06-30T06:13:18.911Z - Request to /api/trpc/commerce.categories.list,commerce.products.list,commerce.settings.get,commerce.reviews.listRecent?batch=1&input=%7B%220%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%2C%221%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%2C%222%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%2C%223%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%7D. Token found in cookies: true
+2026-06-30T06:13:18.912Z - JWT verified. UserId: 000000000000000000000000, Role: admin
+2026-06-30T06:13:18.912Z - Admin user restored from JWT payload
+2026-06-30T06:13:57.328Z - Request to /api/trpc/commerce.categories.list,commerce.products.list,commerce.settings.get,commerce.reviews.listRecent?batch=1&input=%7B%220%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%2C%221%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%2C%222%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%2C%223%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%7D. Token found in cookies: true
+2026-06-30T06:13:57.329Z - JWT verified. UserId: 000000000000000000000000, Role: admin
+2026-06-30T06:13:57.330Z - Admin user restored from JWT payload
+2026-06-30T06:14:05.311Z - Request to /api/trpc/commerce.categories.list,commerce.products.list?batch=1&input=%7B%220%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%2C%221%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%7D. Token found in cookies: true
+2026-06-30T06:14:05.313Z - JWT verified. UserId: 000000000000000000000000, Role: admin
+2026-06-30T06:14:05.313Z - Admin user restored from JWT payload
+2026-06-30T06:14:21.408Z - Request to /api/trpc/commerce.categories.list,commerce.products.list,commerce.settings.get,commerce.reviews.listRecent?batch=1&input=%7B%220%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%2C%221%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%2C%222%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%2C%223%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%7D. Token found in cookies: true
+2026-06-30T06:14:21.408Z - JWT verified. UserId: 000000000000000000000000, Role: admin
+2026-06-30T06:14:21.409Z - Admin user restored from JWT payload
+2026-06-30T06:14:34.179Z - Request to /api/trpc/commerce.categories.list,commerce.products.list,commerce.settings.get,commerce.reviews.listRecent?batch=1&input=%7B%220%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%2C%221%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%2C%222%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%2C%223%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%7D. Token found in cookies: true
+2026-06-30T06:14:34.180Z - JWT verified. UserId: 000000000000000000000000, Role: admin
+2026-06-30T06:14:34.181Z - Admin user restored from JWT payload
+2026-06-30T06:14:43.632Z - Request to /api/trpc/commerce.categories.list,commerce.products.list,commerce.settings.get,commerce.reviews.listRecent?batch=1&input=%7B%220%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%2C%221%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%2C%222%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%2C%223%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%7D. Token found in cookies: true
+2026-06-30T06:14:43.633Z - JWT verified. UserId: 000000000000000000000000, Role: admin
+2026-06-30T06:14:43.634Z - Admin user restored from JWT payload
+2026-06-30T06:14:48.749Z - Request to /api/trpc/commerce.categories.list,commerce.products.list?batch=1&input=%7B%220%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%2C%221%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%7D. Token found in cookies: true
+2026-06-30T06:14:48.750Z - JWT verified. UserId: 000000000000000000000000, Role: admin
+2026-06-30T06:14:48.751Z - Admin user restored from JWT payload
+2026-06-30T06:15:23.860Z - Request to /api/trpc/commerce.products.list,commerce.categories.list?batch=1&input=%7B%220%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%2C%221%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%7D. Token found in cookies: true
+2026-06-30T06:15:23.861Z - JWT verified. UserId: 000000000000000000000000, Role: admin
+2026-06-30T06:15:23.861Z - Admin user restored from JWT payload
+2026-06-30T06:15:47.756Z - Request to /api/trpc/commerce.categories.list,commerce.reviews.listRecent,commerce.products.list?batch=1&input=%7B%220%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%2C%221%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%2C%222%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%7D. Token found in cookies: true
+2026-06-30T06:15:47.758Z - JWT verified. UserId: 000000000000000000000000, Role: admin
+2026-06-30T06:15:47.758Z - Admin user restored from JWT payload
+2026-06-30T06:16:27.358Z - Request to /api/trpc/commerce.categories.list,commerce.products.list,commerce.settings.get,commerce.reviews.listRecent?batch=1&input=%7B%220%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%2C%221%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%2C%222%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%2C%223%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%7D. Token found in cookies: true
+2026-06-30T06:16:27.359Z - JWT verified. UserId: 000000000000000000000000, Role: admin
+2026-06-30T06:16:27.360Z - Admin user restored from JWT payload
+2026-06-30T06:16:32.269Z - Request to /api/trpc/commerce.categories.list,commerce.reviews.listRecent,commerce.products.list?batch=1&input=%7B%220%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%2C%221%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%2C%222%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%7D. Token found in cookies: true
+2026-06-30T06:16:32.271Z - JWT verified. UserId: 000000000000000000000000, Role: admin
+2026-06-30T06:16:32.272Z - Admin user restored from JWT payload
+2026-06-30T06:16:43.490Z - Request to /api/trpc/commerce.products.list,commerce.categories.list?batch=1&input=%7B%220%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%2C%221%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%7D. Token found in cookies: true
+2026-06-30T06:16:43.491Z - JWT verified. UserId: 000000000000000000000000, Role: admin
+2026-06-30T06:16:43.491Z - Admin user restored from JWT payload
+2026-06-30T06:16:46.955Z - Request to /api/trpc/commerce.cart.addLines?batch=1. Token found in cookies: true
+2026-06-30T06:16:46.955Z - JWT verified. UserId: 000000000000000000000000, Role: admin
+2026-06-30T06:16:46.956Z - Admin user restored from JWT payload
+2026-06-30T06:16:50.624Z - Request to /api/trpc/auth.me,commerce.products.byHandle?batch=1&input=%7B%220%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%2C%221%22%3A%7B%22json%22%3A%7B%22handle%22%3A%22boxy-fit-men-shirt%22%7D%7D%7D. Token found in cookies: true
+2026-06-30T06:16:50.626Z - JWT verified. UserId: 000000000000000000000000, Role: admin
+2026-06-30T06:16:50.626Z - Admin user restored from JWT payload
+2026-06-30T06:16:50.670Z - Request to /api/trpc/commerce.reviews.listByProduct?batch=1&input=%7B%220%22%3A%7B%22json%22%3A%7B%22productId%22%3A%226a4354d8ff9c4c01edd06baa%22%7D%7D%7D. Token found in cookies: true
+2026-06-30T06:16:50.671Z - JWT verified. UserId: 000000000000000000000000, Role: admin
+2026-06-30T06:16:50.672Z - Admin user restored from JWT payload
+2026-06-30T06:17:44.023Z - Request to /api/trpc/commerce.categories.list,commerce.products.list,commerce.settings.get,commerce.products.byHandle,commerce.reviews.listByProduct?batch=1&input=%7B%220%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%2C%221%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%2C%222%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%2C%223%22%3A%7B%22json%22%3A%7B%22handle%22%3A%22boxy-fit-men-shirt%22%7D%7D%2C%224%22%3A%7B%22json%22%3A%7B%22productId%22%3A%226a4354d8ff9c4c01edd06baa%22%7D%7D%7D. Token found in cookies: true
+2026-06-30T06:17:44.024Z - JWT verified. UserId: 000000000000000000000000, Role: admin
+2026-06-30T06:17:44.025Z - Admin user restored from JWT payload
+2026-06-30T06:18:12.947Z - Request to /api/trpc/auth.me,commerce.products.byHandle,commerce.reviews.listByProduct?batch=1&input=%7B%220%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%2C%221%22%3A%7B%22json%22%3A%7B%22handle%22%3A%22boxy-fit-men-shirt%22%7D%7D%2C%222%22%3A%7B%22json%22%3A%7B%22productId%22%3A%226a4354d8ff9c4c01edd06baa%22%7D%7D%7D. Token found in cookies: true
+2026-06-30T06:18:12.948Z - JWT verified. UserId: 000000000000000000000000, Role: admin
+2026-06-30T06:18:12.948Z - Admin user restored from JWT payload
+2026-06-30T06:18:20.950Z - Request to /api/trpc/auth.me,commerce.products.byHandle,commerce.reviews.listByProduct?batch=1&input=%7B%220%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%2C%221%22%3A%7B%22json%22%3A%7B%22handle%22%3A%22boxy-fit-men-shirt%22%7D%7D%2C%222%22%3A%7B%22json%22%3A%7B%22productId%22%3A%226a4354d8ff9c4c01edd06baa%22%7D%7D%7D. Token found in cookies: true
+2026-06-30T06:18:20.951Z - JWT verified. UserId: 000000000000000000000000, Role: admin
+2026-06-30T06:18:20.951Z - Admin user restored from JWT payload
+2026-06-30T06:18:28.962Z - Request to /api/trpc/auth.me,commerce.products.byHandle,commerce.reviews.listByProduct?batch=1&input=%7B%220%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%2C%221%22%3A%7B%22json%22%3A%7B%22handle%22%3A%22boxy-fit-men-shirt%22%7D%7D%2C%222%22%3A%7B%22json%22%3A%7B%22productId%22%3A%226a4354d8ff9c4c01edd06baa%22%7D%7D%7D. Token found in cookies: true
+2026-06-30T06:18:28.963Z - JWT verified. UserId: 000000000000000000000000, Role: admin
+2026-06-30T06:18:28.963Z - Admin user restored from JWT payload
+2026-06-30T06:18:48.068Z - Request to /api/trpc/commerce.categories.list,commerce.products.list,commerce.settings.get,commerce.products.byHandle,commerce.reviews.listByProduct?batch=1&input=%7B%220%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%2C%221%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%2C%222%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%2C%223%22%3A%7B%22json%22%3A%7B%22handle%22%3A%22boxy-fit-men-shirt%22%7D%7D%2C%224%22%3A%7B%22json%22%3A%7B%22productId%22%3A%226a4354d8ff9c4c01edd06baa%22%7D%7D%7D. Token found in cookies: true
+2026-06-30T06:18:48.069Z - JWT verified. UserId: 000000000000000000000000, Role: admin
+2026-06-30T06:18:48.069Z - Admin user restored from JWT payload
+2026-06-30T06:18:50.350Z - Request to /api/trpc/commerce.cart.removeLines?batch=1. Token found in cookies: true
+2026-06-30T06:18:50.351Z - JWT verified. UserId: 000000000000000000000000, Role: admin
+2026-06-30T06:18:50.351Z - Admin user restored from JWT payload
+2026-06-30T06:18:51.406Z - Request to /api/trpc/commerce.cart.addLines?batch=1. Token found in cookies: true
+2026-06-30T06:18:51.407Z - JWT verified. UserId: 000000000000000000000000, Role: admin
+2026-06-30T06:18:51.407Z - Admin user restored from JWT payload
+2026-06-30T06:18:52.777Z - Request to /api/trpc/commerce.cart.removeLines?batch=1. Token found in cookies: true
+2026-06-30T06:18:52.778Z - JWT verified. UserId: 000000000000000000000000, Role: admin
+2026-06-30T06:18:52.778Z - Admin user restored from JWT payload
+2026-06-30T06:18:54.866Z - Request to /api/trpc/commerce.cart.addLines?batch=1. Token found in cookies: true
+2026-06-30T06:18:54.867Z - JWT verified. UserId: 000000000000000000000000, Role: admin
+2026-06-30T06:18:54.867Z - Admin user restored from JWT payload
+2026-06-30T06:18:55.631Z - Request to /api/trpc/commerce.cart.removeLines?batch=1. Token found in cookies: true
+2026-06-30T06:18:55.632Z - JWT verified. UserId: 000000000000000000000000, Role: admin
+2026-06-30T06:18:55.632Z - Admin user restored from JWT payload
+2026-06-30T06:18:56.358Z - Request to /api/trpc/commerce.cart.addLines?batch=1. Token found in cookies: true
+2026-06-30T06:18:56.359Z - JWT verified. UserId: 000000000000000000000000, Role: admin
+2026-06-30T06:18:56.359Z - Admin user restored from JWT payload
+2026-06-30T06:18:57.276Z - Request to /api/trpc/commerce.cart.removeLines?batch=1. Token found in cookies: true
+2026-06-30T06:18:57.277Z - JWT verified. UserId: 000000000000000000000000, Role: admin
+2026-06-30T06:18:57.278Z - Admin user restored from JWT payload
+2026-06-30T06:18:58.742Z - Request to /api/trpc/commerce.cart.addLines?batch=1. Token found in cookies: true
+2026-06-30T06:18:58.743Z - JWT verified. UserId: 000000000000000000000000, Role: admin
+2026-06-30T06:18:58.743Z - Admin user restored from JWT payload
+2026-06-30T06:18:59.643Z - Request to /api/trpc/commerce.cart.removeLines?batch=1. Token found in cookies: true
+2026-06-30T06:18:59.644Z - JWT verified. UserId: 000000000000000000000000, Role: admin
+2026-06-30T06:18:59.644Z - Admin user restored from JWT payload
+2026-06-30T06:19:08.866Z - Request to /api/trpc/commerce.settings.get?batch=1&input=%7B%220%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%7D. Token found in cookies: true
+2026-06-30T06:19:08.867Z - JWT verified. UserId: 000000000000000000000000, Role: admin
+2026-06-30T06:19:08.867Z - Admin user restored from JWT payload
+2026-06-30T06:19:15.537Z - Request to /api/trpc/auth.me,commerce.products.byHandle?batch=1&input=%7B%220%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%2C%221%22%3A%7B%22json%22%3A%7B%22handle%22%3A%22ed-hardy-vintage-jeans%22%7D%7D%7D. Token found in cookies: true
+2026-06-30T06:19:15.538Z - JWT verified. UserId: 000000000000000000000000, Role: admin
+2026-06-30T06:19:15.538Z - Admin user restored from JWT payload
+2026-06-30T06:19:15.583Z - Request to /api/trpc/commerce.reviews.listByProduct?batch=1&input=%7B%220%22%3A%7B%22json%22%3A%7B%22productId%22%3A%226a4353f0ff9c4c01edd06ba7%22%7D%7D%7D. Token found in cookies: true
+2026-06-30T06:19:15.584Z - JWT verified. UserId: 000000000000000000000000, Role: admin
+2026-06-30T06:19:15.585Z - Admin user restored from JWT payload
+2026-06-30T06:19:21.780Z - Request to /api/trpc/commerce.categories.list,commerce.reviews.listRecent,commerce.products.list?batch=1&input=%7B%220%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%2C%221%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%2C%222%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%7D. Token found in cookies: true
+2026-06-30T06:19:21.781Z - JWT verified. UserId: 000000000000000000000000, Role: admin
+2026-06-30T06:19:21.781Z - Admin user restored from JWT payload
+2026-06-30T06:19:27.498Z - Request to /api/trpc/commerce.settings.get?batch=1&input=%7B%220%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%7D. Token found in cookies: true
+2026-06-30T06:19:27.499Z - JWT verified. UserId: 000000000000000000000000, Role: admin
+2026-06-30T06:19:27.499Z - Admin user restored from JWT payload
+2026-06-30T06:19:49.574Z - Request to /api/trpc/commerce.categories.list,commerce.reviews.listRecent,commerce.products.list?batch=1&input=%7B%220%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%2C%221%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%2C%222%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%7D. Token found in cookies: true
+2026-06-30T06:19:49.575Z - JWT verified. UserId: 000000000000000000000000, Role: admin
+2026-06-30T06:19:49.575Z - Admin user restored from JWT payload
+2026-06-30T06:22:27.232Z - Request to /api/trpc/commerce.categories.list,commerce.products.list,commerce.settings.get,commerce.reviews.listRecent?batch=1&input=%7B%220%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%2C%221%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%2C%222%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%2C%223%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%7D. Token found in cookies: true
+2026-06-30T06:22:27.233Z - JWT verified. UserId: 000000000000000000000000, Role: admin
+2026-06-30T06:22:27.233Z - Admin user restored from JWT payload
+2026-06-30T06:22:53.797Z - Request to /api/trpc/commerce.categories.list,commerce.products.list,commerce.settings.get,commerce.reviews.listRecent?batch=1&input=%7B%220%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%2C%221%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%2C%222%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%2C%223%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%7D. Token found in cookies: true
+2026-06-30T06:22:53.798Z - JWT verified. UserId: 000000000000000000000000, Role: admin
+2026-06-30T06:22:53.798Z - Admin user restored from JWT payload
+2026-06-30T06:23:04.218Z - Request to /api/trpc/commerce.products.list,commerce.categories.list?batch=1&input=%7B%220%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%2C%221%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%7D. Token found in cookies: true
+2026-06-30T06:23:04.219Z - JWT verified. UserId: 000000000000000000000000, Role: admin
+2026-06-30T06:23:04.220Z - Admin user restored from JWT payload
+2026-06-30T06:23:19.882Z - Request to /api/trpc/commerce.settings.get?batch=1&input=%7B%220%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%7D. Token found in cookies: true
+2026-06-30T06:23:19.884Z - JWT verified. UserId: 000000000000000000000000, Role: admin
+2026-06-30T06:23:19.884Z - Admin user restored from JWT payload
+2026-06-30T06:26:52.426Z - Request to /api/trpc/commerce.categories.list,commerce.products.list,commerce.settings.get?batch=1&input=%7B%220%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%2C%221%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%2C%222%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%7D. Token found in cookies: true
+2026-06-30T06:26:52.428Z - JWT verified. UserId: 000000000000000000000000, Role: admin
+2026-06-30T06:26:52.428Z - Admin user restored from JWT payload
+2026-06-30T06:27:44.944Z - Request to /api/trpc/commerce.settings.get?batch=1&input=%7B%220%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%7D. Token found in cookies: true
+2026-06-30T06:27:44.945Z - JWT verified. UserId: 000000000000000000000000, Role: admin
+2026-06-30T06:27:44.945Z - Admin user restored from JWT payload
+2026-06-30T06:29:03.663Z - Request to /api/trpc/commerce.categories.list,commerce.products.list,commerce.settings.get?batch=1&input=%7B%220%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%2C%221%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%2C%222%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%7D. Token found in cookies: true
+2026-06-30T06:29:03.665Z - JWT verified. UserId: 000000000000000000000000, Role: admin
+2026-06-30T06:29:03.665Z - Admin user restored from JWT payload
+2026-06-30T06:29:45.103Z - Request to /api/trpc/admin.getOrders?batch=1&input=%7B%220%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%7D. Token found in cookies: true
+2026-06-30T06:29:45.104Z - JWT verified. UserId: 000000000000000000000000, Role: admin
+2026-06-30T06:29:45.105Z - Admin user restored from JWT payload
+2026-06-30T06:29:48.111Z - Request to /api/trpc/auth.me,admin.getSettings?batch=1&input=%7B%220%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%2C%221%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%7D. Token found in cookies: true
+2026-06-30T06:29:48.112Z - JWT verified. UserId: 000000000000000000000000, Role: admin
+2026-06-30T06:29:48.113Z - Admin user restored from JWT payload
+2026-06-30T06:29:49.394Z - Request to /api/trpc/auth.me,commerce.cart.get?batch=1&input=%7B%220%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%2C%221%22%3A%7B%22json%22%3A%7B%22cartId%22%3A%226a435670ff9c4c01edd06bc2%22%7D%7D%7D. Token found in cookies: true
+2026-06-30T06:29:49.395Z - JWT verified. UserId: 000000000000000000000000, Role: admin
+2026-06-30T06:29:49.395Z - Admin user restored from JWT payload
+2026-06-30T06:29:49.435Z - Request to /api/trpc/auth.me,admin.getSettings?batch=1&input=%7B%220%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%2C%221%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%7D. Token found in cookies: true
+2026-06-30T06:29:49.436Z - JWT verified. UserId: 000000000000000000000000, Role: admin
+2026-06-30T06:29:49.436Z - Admin user restored from JWT payload
+2026-06-30T06:30:03.743Z - Request to /api/trpc/admin.getSettings?batch=1&input=%7B%220%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%7D. Token found in cookies: true
+2026-06-30T06:30:03.744Z - JWT verified. UserId: 000000000000000000000000, Role: admin
+2026-06-30T06:30:03.745Z - Admin user restored from JWT payload
+2026-06-30T06:31:24.949Z - Request to /api/trpc/auth.me,admin.getSettings?batch=1&input=%7B%220%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%2C%221%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%7D. Token found in cookies: true
+2026-06-30T06:31:24.949Z - JWT verified. UserId: 000000000000000000000000, Role: admin
+2026-06-30T06:31:24.950Z - Admin user restored from JWT payload
+2026-06-30T06:31:33.958Z - Request to /api/trpc/auth.me,admin.getSettings?batch=1&input=%7B%220%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%2C%221%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%7D. Token found in cookies: true
+2026-06-30T06:31:33.959Z - JWT verified. UserId: 000000000000000000000000, Role: admin
+2026-06-30T06:31:33.960Z - Admin user restored from JWT payload
+2026-06-30T06:32:01.943Z - Request to /api/trpc/commerce.settings.get?batch=1&input=%7B%220%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%7D. Token found in cookies: true
+2026-06-30T06:32:01.944Z - JWT verified. UserId: 000000000000000000000000, Role: admin
+2026-06-30T06:32:01.944Z - Admin user restored from JWT payload
+2026-06-30T06:32:27.940Z - Request to /api/trpc/commerce.settings.get?batch=1&input=%7B%220%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%7D. Token found in cookies: true
+2026-06-30T06:32:27.941Z - JWT verified. UserId: 000000000000000000000000, Role: admin
+2026-06-30T06:32:27.941Z - Admin user restored from JWT payload
+2026-06-30T06:34:44.969Z - Request to /api/trpc/admin.getSettings?batch=1&input=%7B%220%22%3A%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%7D%7D%7D. Token found in cookies: true
+2026-06-30T06:34:44.971Z - JWT verified. UserId: 000000000000000000000000, Role: admin
+2026-06-30T06:34:44.971Z - Admin user restored from JWT payload
